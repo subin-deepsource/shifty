@@ -1,5 +1,8 @@
 version = 1
 
 [[analyzers]]
-name = "javascript"
+name = "go"
 enabled = true
+
+  [analyzers.meta]
+  import_root = "github.com/subin-deepsource/test"
